@@ -1,0 +1,100 @@
+.courses-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    /* border:2px solid red; */
+  }
+  
+  .courses-details h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .courses-banner {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .card-titles {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 15px;
+  }
+  
+  .card-prices,
+  .card-durations,
+  .card-languages,
+  .card-levels {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    
+  }
+  
+  .card-prerequisites,
+  .card-objectives {
+    margin-bottom: 20px;
+  }
+  
+  .card-prerequisites h3,
+  .card-objectives h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .card-prerequisites ol,
+  .card-objectives ul {
+    padding-left: 20px;
+  }
+  
+  .card-prerequisites li,
+  .card-objectives li {
+    margin-bottom: 5px;
+  }
+  
+  .course-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .courses-details {
+      padding: 10px;
+    }
+  
+    .courses-details h1 {
+      font-size: 2rem;
+    }
+  
+    .card-title {
+      font-size: 1.5rem;
+    }
+  
+    .card-price,
+    .card-duration,
+    .card-language,
+    .card-level {
+      font-size: 1rem;
+      display: block;
+      margin-bottom: 5px;
+    }
+  }

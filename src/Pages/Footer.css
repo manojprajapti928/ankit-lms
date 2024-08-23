@@ -1,0 +1,29 @@
+.main_footer{
+    background-color: rgb(34, 31, 31);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    line-height: 2rem;
+    font-size: large;
+    color: white;
+}
+
+.main_footer ul li:hover{
+   
+   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .main_footer{
+        font-size: medium;
+    } 
+}
+
+
+@media (max-width: 560px) {
+    .main_footer{
+        font-size: small;
+    } 
+}

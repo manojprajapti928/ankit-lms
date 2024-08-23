@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    .inputtext{
+      margin-left: 2rem;
+    }
+    .bossresult{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .result{
+        width: 500px;
+        height: 200px;
+    }
+    .correct{
+        color: green;
+    }
+    .incorrect{
+        color: #ff1100;
+    }
